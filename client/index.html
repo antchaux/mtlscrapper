@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MTL Scrapper</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<form class="form">
+  <fieldset>
+      <h3>Search for a card</h3>
+      <textarea type='text' id="message" name="text" rows="8" cols="40" autofocus required></textarea>
+      <br><br>
+      <input class="btn" type="submit" value="Submit">
+      <input class="btn" type="reset" value="Reset">
+  </fieldset>
+    
+  <!-- <div id="buttons">
+    <button class="btn">Show all</button>
+    <button class="btn">Regular</button>
+    <button class="btn">Foil</button>
+    <button class="btn">Extended art/Showcase</button>
+  </div> -->
+</form>
+<!-- 
+<input type="checkbox" id="oos" value="oos">
+<label for="vehicle1">Show Out Of Stock</label>
+<input type="checkbox" id="foil" value="foil">
+<label for="vehicle1">Show Foils</label>
+<br><br> -->
+
+
+<img id="loadingGif" style="display:none" class="center" src="loading-buffering.gif">
+<div id="feed"></div>
+
+<script src="main.js"></script>
+</body>
+</html>

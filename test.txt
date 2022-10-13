@@ -1,0 +1,1109 @@
+<!DOCTYPE html><html class="no-js" lang="en"><head>
+        <title>Search</title>
+        <link rel="dns-prefetch preconnect" href="https://cdn11.bigcommerce.com/s-641uhzxs7j" crossorigin=""><link rel="dns-prefetch preconnect" href="https://fonts.googleapis.com" crossorigin=""><link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <meta name="keywords" content="mtg, mtg cards, booster box, commander decks, buy mtg cards, mtg singles, mtg sets, mtg packs, magic the gathering, yugioh cards, yugioh singles, pokemon cards, pokemon singles, yugioh booster box, pokemon booster box, mtg booster packs, yugioh booster packs, pokemon booster packs"><link rel="canonical" href="https://www.facetofacegames.com/search/"><meta name="platform" content="bigcommerce.stencil">
+        
+         
+
+        <link href="https://cdn11.bigcommerce.com/s-641uhzxs7j/product_images/favicon.png?t=1580232567" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <script>
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+        </script>
+        <script>
+            window.lazySizesConfig = window.lazySizesConfig || {};
+            window.lazySizesConfig.loadMode = 1;
+        </script>
+        <script async="" src="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/dist/theme-bundle.head_async.js"></script>
+            <script type="text/javascript" src="https://facetofacegames-live.ae-admin.com/assets/bc/1/category.js"></script>
+            <script type="text/javascript" src="https://facetofacegames-live.ae-admin.com/assets/bc/1/familyattributeoptions.js"></script>
+        <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+        <script>
+            Weglot.initialize({
+                api_key: 'wg_935e3aca14aa7c88bc0822177c847c645'
+            });
+        </script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Barlow:|Teko:|Barlow+Condensed:700,,500|Montserrat:500,700|PT+Sans:&amp;display=swap" rel="stylesheet">
+        <link data-stencil-stylesheet="" href="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/css/theme-b68cdda0-e970-013a-7bd1-620868af24a5.css" rel="stylesheet">
+
+        <!-- Start Tracking Code for analytics_facebook -->
+
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('set', 'autoConfig', 'false', '322700875073230');
+fbq('dataProcessingOptions', ['LDU'], 0, 0);
+fbq('init', '322700875073230');
+fbq('set', 'agent', 'plbigcommerce1.2', '322700875073230');
+
+window.onload = function() {
+    var pathName = window.location.pathname;
+
+    fbq('track', 'PageView', {}, {"eventID":"store-11-prd-us-central1-46886321003"});
+
+    // Search events start -- only fire if the shopper lands on the /search.php page
+    if (pathName.indexOf('/search.php') === 0 && getUrlParameter('search_query')) {
+        fbq('track', 'Search', {
+            content_type: 'product_group',
+            content_ids: [],
+            search_string: getUrlParameter('search_query')
+        });
+    }
+    // Search events end
+
+    // Wishlist events start -- only fire if the shopper attempts to add an item to their wishlist
+    if (pathName.indexOf('/wishlist.php') === 0 && getUrlParameter('added_product_id')) {
+        fbq('track', 'AddToWishlist', {
+            content_type: 'product_group',
+            content_ids: []
+        });
+    }
+    // Wishlist events end
+
+    // Lead events start -- only fire if the shopper subscribes to newsletter
+    if (pathName.indexOf('/subscribe.php') === 0 && getUrlParameter('result') === 'success') {
+        fbq('track', 'Lead', {});
+    }
+    // Lead events end
+
+    // Registration events start -- only fire if the shopper registers an account
+    if (pathName.indexOf('/login.php') === 0 && getUrlParameter('action') === 'account_created') {
+        fbq('track', 'CompleteRegistration', {}, "");
+    }
+    // Registration events end
+
+    // Checkout events start -- only fire if the shopper lands on a /checkout* page
+    if (pathName === '/checkout.php' || /^\/(embedded-)?checkout$/.test(pathName)) {
+        window.sessionStorage.setItem('fb_conversion_key_', 'true');
+
+        if (getUrlParameter('action') === 'process_payment') {
+            fbq('track', 'AddPaymentInfo');
+        } else {
+            fbq('track', 'InitiateCheckout');
+        }
+    }
+    // Checkout events end
+
+    function getUrlParameter(name) {
+        var cleanName = name.replace(/[\[]/, '\[').replace(/[\]]/, '\]');
+        var regex = new RegExp('[\?&]' + cleanName + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+}
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="null" src="https://www.facebook.com/tr?id=322700875073230&ev=PageView&noscript=1&a=plbigcommerce1.2&eid=store-11-prd-us-central1-46886321003"/></noscript>
+
+<!-- End Tracking Code for analytics_facebook -->
+
+<!-- Start Tracking Code for analytics_googleanalytics -->
+
+<script>
+    !function(){var analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.loadPlatform=function(t,e,a,o){window[o||"analytics"]=analytics;window._analytics_js_global_name=o;analytics.platformSettings=e;analytics.platformPlan=a;var r=document.createElement("script");r.type="text/javascript";r.defer=!0;r.src="https://cdn11.bigcommerce.com/shared/js/storefront/analytics-c7af4d4e323cc1137c45f692e81cae05fd2a3986.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)};analytics.SNIPPET_VERSION="4.0.0_platform";
+        analytics.loadPlatform("", { "Google Analytics": {"enhancedLinkAttribution":true,"enhancedEcommerce":true,"includeSearch":true,"sendUserId":true,"trackingId":"UA-72359255-2","dimensions":[],"metrics":[]} }, {}, "analytics");
+        analytics.identify();
+        analytics.page();
+        
+        analytics.ready(function () {
+            ga('require', 'ec');
+            ga('require', 'linker');
+            ga('linker:autoLink', ["www.facetofacegames.com"]);
+        });
+    }}();
+</script>
+
+<!-- End Tracking Code for analytics_googleanalytics -->
+
+<!-- Start Tracking Code for analytics_siteverification -->
+
+<meta name="google-site-verification" content="gOS47y1F2PtkI7wDM9Y1SWCy7Jkb3X5P4asiHFCrwfs">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-72359255-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-72359255-2');
+  gtag('config', 'AW-875868584');
+</script>
+
+
+<!-- End Tracking Code for analytics_siteverification -->
+
+
+<script type="text/javascript" src="https://checkout-sdk.bigcommerce.com/v1/loader.js" defer=""></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-34763b84a6e7535e572ee77e4974316e6696d505/vendor/bower_components/braintree-web/index.js" defer=""></script>
+<script type="text/javascript" src="https://checkout-sdk.bigcommerce.com/v1/loader.js" defer=""></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-34763b84a6e7535e572ee77e4974316e6696d505/vendor/bower_components/braintree-web/index.js" defer=""></script>
+<script type="text/javascript">
+(function () {
+    var xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', 'https://awid9mr9fd.execute-api.us-east-1.amazonaws.com/prod/nobot');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"store_id":"1000945202","timezone_offset":"-4","timestamp":"2022-07-19T19:41:59.08506900Z","visit_id":"2044a0f7-f49a-43d7-a741-10b046db9da9","channel_id":1}');
+})();(function () {
+    var xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', 'https://bes.gcp.data.bigcommerce.com/nobot');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"store_id":"1000945202","timezone_offset":"-4","timestamp":"2022-07-19T19:41:59.08506900Z","visit_id":"2044a0f7-f49a-43d7-a741-10b046db9da9","channel_id":1}');
+})();
+</script>
+<script type="text/javascript">
+var BCData = {"csrf_token":"b69f1eba5a0c9c67df936203e9d3cfad90755106394ca8c658b64643e7fac71b"};
+</script>
+
+        
+        <link type="text/css" rel="stylesheet" href="https://store-641uhzxs7j.mybigcommerce.com/content/css/lightslider.css">                  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://store-641uhzxs7j.mybigcommerce.com/content/js/lightslider.js"></script>
+        
+        
+
+    </head>
+    <body data-customer="false" data-page-type="page" data-storefront-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJjaWQiOjEsImNvcnMiOlsiaHR0cHM6Ly93d3cuZmFjZXRvZmFjZWdhbWVzLmNvbSJdLCJlYXQiOjE2NTgzNTE4NTQsImlhdCI6MTY1ODE3OTA1NCwiaXNzIjoiQkMiLCJzaWQiOjEwMDA5NDUyMDIsInN1YiI6ImJjYXBwLmxpbmtlcmQiLCJzdWJfdHlwZSI6MCwidG9rZW5fdHlwZSI6MX0.QDPjZDTPWJApAFrvQdXBr59HmND53JCNzWTyiAu_olYuz2MfrGzp4kRqHo7BBUSkDrbwkA8y8jdEcBr-8eXEGQ">
+        <svg data-src="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/img/icon-sprite.svg" class="icons-svg-sprite"></svg>
+        <header class="header" role="banner">
+    <nav class="navUser">
+    <div class="container">
+        <ul class="navUser-stores">
+            <li class="navUser-item">
+                <a href="" class="buy is-actived navUser-action"><svg class="icon icon-buy"><use xlink:href="#icon-buy"></use></svg> Buy</a>
+            </li>
+            <li class="navUser-item">
+                <a href="https://buylist.facetofacegames.com/" class="sell navUser-action"><svg class="icon icon-sell"><use xlink:href="#icon-sell"></use></svg> Sell</a>
+            </li>
+        </ul>
+        <ul class="navUser-section navUser-section--alt">
+            <li class="navUser-item navUser-item--currency">
+    <a class="navUser-action navUser-action--currencySelector has-dropdown" href="#" data-dropdown="currencySelection" aria-controls="currencySelection" aria-expanded="false" data-activecurrency="CAD"><span class="currency-label">Select Currency</span> CAD <svg class="icon icon-dropdown-arrow"><use xlink:href="#icon-dropdown-arrow"></use></svg></a>
+    <ul class="dropdown-menu" id="currencySelection" data-dropdown-content="" aria-hidden="true" tabindex="-1">
+        <li class="dropdown-menu-item">
+            <a href="https://www.facetofacegames.com/search/?setCurrencyId=1">
+                <strong>Canadian Dollars</strong>
+            </a>
+        </li>
+        <li class="dropdown-menu-item">
+            <a href="https://www.facetofacegames.com/search/?setCurrencyId=3">
+                Euro
+            </a>
+        </li>
+        <li class="dropdown-menu-item">
+            <a href="https://www.facetofacegames.com/search/?setCurrencyId=2">
+                US Dollar
+            </a>
+        </li>
+    </ul>
+</li>
+            <li class="navUser-item navUser-item--divider">|</li>
+            <li class="navUser-item navUser-item--account">
+                    <a class="navUser-action navUser-action--account" href="/login.php"><svg class="icon icon-account"><use xlink:href="#icon-account"></use></svg>Sign in</a>
+                    /<a class="navUser-action navUser-action--account" href="/login.php?action=create_account">Register</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <div class="main-navigation">
+        <div class="container container-flex">
+            <div class="hamburger-bar">
+                <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+                    <span class="mobileMenu-toggleIcon">Toggle menu</span>
+                </a>
+            </div>
+                <div class="header-logo header-logo--left" data-lang="en">
+                    <a href="https://www.facetofacegames.com/">
+    <img src="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/img/logo-colored.svg" alt="Face To Face Games" title="Face To Face Games">
+</a>
+                </div>
+                <div class="header-logo header-logo--left hidden" data-lang="fr">
+                    <a href="https://www.facetofacegames.com/">
+    <img src="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/img/logo-colored-french.svg" alt="Face To Face Games" title="Face To Face Games">
+</a>
+                </div>
+            <div class="navPages-main" data-lang="en">
+                <!-- navigation -->
+<nav class="navPages navPages--pages" id="navPages--pages">
+        <ul class="navPages-list navPages-list--page">
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="mtg-articles" href="https://magic.facetofacegames.com/">MTG Articles</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="f2f-tour" href="http://f2ftour.com/">F2F Tour</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="montr-al-store" href="https://www.facetofacegames.com/montreal/">Montréal Store</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="toronto-store" href="https://www.facetofacegames.com/toronto/">Toronto Store</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="customer-service" href="http://support.facetofacegames.com/">Customer Service</a>
+                    </li>
+        <li class="navPages-item navPages-item-page navPages-item-english">
+            <a class="navPages-action" href="/giftcertificates.php" aria-label="Gift Certificates">Gift Certificates</a>
+        </li>
+    </ul>
+</nav>
+<div class="navTools">
+    <div class="navPages-mobileSearch">
+        <a class="navUser-action--quickSearch" href="#" data-search="quickSearch" aria-controls="quickSearch" aria-expanded="false"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg> <svg class="icon icon-cross"><use xlink:href="#icon-cross"></use></svg></a>
+    </div> 
+    <div class="navPages-quickSearch" data-prevent-quick-search-close="">
+        <div data-hawksearch-component="search-box" data-hawksearch-sdk="vue" data-hawksearch-landingpage="" data-hawksearch-config="{&quot;apiUrl&quot;:&quot;https://searchapi.hawksearch.com/&quot;,&quot;clientGuid&quot;:&quot;30c874915d164f71bf6f84f594bf623f&quot;,&quot;dashboardUrl&quot;:&quot;https://manage.hawksearch.com/&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;link&quot;},&quot;recommendationUrl&quot;:&quot;https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems&quot;,&quot;resultItem&quot;:{&quot;itemSelect&quot;:true,&quot;linkField&quot;:&quot;url_detail&quot;},&quot;searchConfig&quot;:{&quot;scrollUpOnRefresh&quot;:true},&quot;trackConfig&quot;:[&quot;Search&quot;,&quot;PageLoad&quot;,&quot;Click&quot;,&quot;BannerImpression&quot;,&quot;BannerClick&quot;,&quot;AutocompleteClick&quot;],&quot;trackEventUrl&quot;:&quot;https://tracking.hawksearch.com/api/trackevent/&quot;}">
+
+    <div class="hawk">
+        <div class="hawk__header">
+            <search-box search-page="/search/"></search-box>
+        </div>
+    </div>
+</div>
+
+<script id="vue-hawksearch-search-box" type="x-template">
+    <div class="hawk__searchBox" @click="onClick">
+        <div class="hawk__searchBox__searchInput">
+            <input type="text" :placeholder="$t('Enter a search term')" v-model="keyword" @input="onInput" @keydown="onKeyDown" @blur="onBlur" />
+        </div>
+        <span class="search-submit" v-on:click="search()">
+            <svg class="icon icon-search">
+                <use xlink:href="#icon-search"></use>
+            </svg>
+            <span>Search Now</span>
+        </span>
+        <search-suggestions :field-focused="fieldFocused"></search-suggestions>
+    </div>
+</script>
+    </div>
+    <div class="navPages-advanced">
+        <a href="/advanced-search/" class="navPages-action">        
+            advanced search
+        </a>
+    </div>
+    <div class="navPages-deck">
+        <a href="#" class="navPages-action">
+            Deck Builder
+        </a>
+    </div>
+    <div class="navPages-item navPages-item--cart">
+        <a class="navPages-action" data-cart-preview="" data-dropdown="cart-preview-dropdown" data-options="align:right" href="/cart.php">
+            <span class="navUser-item-cartLabel"><svg class="icon icon-buy"><use xlink:href="#icon-buy"></use></svg> <span>Cart</span></span> <span class="countPill cart-quantity  countPill--positive"></span>
+        </a>
+
+        <div class="dropdown-menu" id="cart-preview-dropdown" data-dropdown-content="" aria-hidden="true"></div>
+    </div>
+</div>            </div> 
+            <div class="navPages-main hidden" data-lang="fr">
+                <!-- navigation -->
+<nav class="navPages navPages--pages">
+                        <li class="navPages-item navPages-item-page navPages-item-french">
+                        <a class="navPages-action" href="http://f2ftour.com/">Circuit F2F</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-french">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/boutique-montreal/">Boutique Montréal</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-french">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/boutique-toronto/">Boutique Toronto</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-french">
+                        <a class="navPages-action" href="http://support.facetofacegames.com/">Service à la clientèle</a>
+                    </li>
+    <li class="navPages-item navPages-item-page navPages-item-french">
+        <a class="navPages-action" href="/giftcertificates.php" aria-label="Gift Certificates">Gift Certificates</a>
+    </li>
+</nav>
+<div class="navTools">
+    <div class="navPages-mobileSearch">
+        <a class="navUser-action--quickSearch" href="#" data-search="quickSearch" aria-controls="quickSearch" aria-expanded="false"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg> <svg class="icon icon-cross"><use xlink:href="#icon-cross"></use></svg></a>
+    </div>
+    <div class="navPages-quickSearch" data-prevent-quick-search-close="">
+        <div data-hawksearch-component="search-box" data-hawksearch-sdk="vue" data-hawksearch-landingpage="" data-hawksearch-config="{&quot;apiUrl&quot;:&quot;https://searchapi.hawksearch.com/&quot;,&quot;clientGuid&quot;:&quot;30c874915d164f71bf6f84f594bf623f&quot;,&quot;dashboardUrl&quot;:&quot;https://manage.hawksearch.com/&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;link&quot;},&quot;recommendationUrl&quot;:&quot;https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems&quot;,&quot;resultItem&quot;:{&quot;itemSelect&quot;:true,&quot;linkField&quot;:&quot;url_detail&quot;},&quot;searchConfig&quot;:{&quot;scrollUpOnRefresh&quot;:true},&quot;trackConfig&quot;:[&quot;Search&quot;,&quot;PageLoad&quot;,&quot;Click&quot;,&quot;BannerImpression&quot;,&quot;BannerClick&quot;,&quot;AutocompleteClick&quot;],&quot;trackEventUrl&quot;:&quot;https://tracking.hawksearch.com/api/trackevent/&quot;}">
+
+    <div class="hawk">
+        <div class="hawk__header">
+            <search-box search-page="/search/"></search-box>
+        </div>
+    </div>
+</div>
+
+<script id="vue-hawksearch-search-box" type="x-template">
+    <div class="hawk__searchBox" @click="onClick">
+        <div class="hawk__searchBox__searchInput">
+            <input type="text" :placeholder="$t('Enter a search term')" v-model="keyword" @input="onInput" @keydown="onKeyDown" @blur="onBlur" />
+        </div>
+        <span class="search-submit" v-on:click="search()">
+            <svg class="icon icon-search">
+                <use xlink:href="#icon-search"></use>
+            </svg>
+            <span>Search Now</span>
+        </span>
+        <search-suggestions :field-focused="fieldFocused"></search-suggestions>
+    </div>
+</script>
+    </div>
+    <div class="navPages-advanced">
+        <a href="/advanced-search/" class="navPages-action">        
+            advanced search
+        </a>
+    </div>
+    <div class="navPages-deck">
+        <a href="#" class="navPages-action">
+            Deck Builder
+        </a>
+    </div>
+    <div class="navPages-item navPages-item--cart">
+        <a class="navPages-action" data-cart-preview="" data-dropdown="cart-preview-dropdown" data-options="align:right" href="/cart.php">
+            <span class="navUser-item-cartLabel"><svg class="icon icon-buy"><use xlink:href="#icon-buy"></use></svg> <span>Cart</span></span> <span class="countPill cart-quantity  countPill--positive"></span>
+        </a>
+
+        <div class="dropdown-menu" id="cart-preview-dropdown" data-dropdown-content="" aria-hidden="true"></div>
+    </div>
+</div>
+            </div> 
+        </div>
+        
+        <div class="navPages-container" id="menu" data-menu="">
+            <nav class="navPages">
+    <ul class="navPages-list navPages-list--category">
+            <li class="navPages-item">
+                <a class="navPages-action has-subMenu" href="https://www.facetofacegames.com/weeky-sales/" data-collapsible="navPages-6633" data-category-translate="" data-category-id="6633">
+    Weekly Sales <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+</a>
+<div class="navPage-subMenu" id="navPages-6633" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+        
+        <li class="navPage-subMenu-item">
+            <a class="navPage-subMenu-action navPages-action all" href="https://www.facetofacegames.com/weeky-sales/" data-category-translate="" data-category-id="6633">All Weekly Sales</a>
+        </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/staging-category/weekly-sales/all-weekly-sales/" data-collapsible="navPages-6512" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="6512">
+                        All Weekly Sales <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-6512">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8357" href="https://www.facetofacegames.com/weekly-sales/all-weekly-sales/standard-set-sale-15-off-standard-mtg-cards/">Standard Set Sale — 15% Off Standard MTG Cards</a>
+                        </li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+            </li>
+            <li class="navPages-item">
+                <a class="navPages-action has-subMenu" href="https://www.facetofacegames.com/magic/" data-collapsible="navPages-3765" data-category-translate="" data-category-id="3765">
+    Magic: The Gathering <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+</a>
+<div class="navPage-subMenu" id="navPages-3765" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+        
+        <li class="navPage-subMenu-item">
+            <a class="navPage-subMenu-action navPages-action all" href="https://www.facetofacegames.com/magic/" data-category-translate="" data-category-id="3765">All Magic: The Gathering</a>
+        </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/magic/new-releases/" data-collapsible="navPages-5280" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="5280">
+                        MTG New Releases <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-5280">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7972" href="https://www.facetofacegames.com/magic-the-gathering/mtg-new-releases/new-category/">High-end MTG Cards</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6923" href="https://www.facetofacegames.com/staging-category/unfinity/">Unfinity</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8198" href="https://www.facetofacegames.com/magic-the-gathering/mtg-new-releases/universes-beyond-warhammer-40-000/">Universes Beyond: Warhammer 40,000</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8196" href="https://www.facetofacegames.com/magic-the-gathering/mtg-new-releases/dominaria-united/">Dominaria United</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8197" href="https://www.facetofacegames.com/magic-the-gathering/mtg-new-releases/dominaria-united-commander/">Dominaria United: Commander</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8130" href="https://www.facetofacegames.com/staging-category/double-masters-2022/">Double Masters 2022</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6387" href="https://www.facetofacegames.com/magic/new-releases/secret-lair-drop-series/">Secret Lair Drop Series</a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/magic/magic-sealed-products/" data-collapsible="navPages-4144" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="4144">
+                        MTG Sealed Products <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-4144">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4145" href="https://www.facetofacegames.com/magic/magic-sealed-products/magic-booster-boxes/">MTG Booster Boxes</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4146" href="https://www.facetofacegames.com/magic/magic-sealed-products/magic-booster-packs/">MTG Booster Packs</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4147" href="https://www.facetofacegames.com/magic/magic-the-gathering-sealed-products/bundles-fat-packs/">MTG Bundles &amp; Fat Packs</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4149" href="https://www.facetofacegames.com/magic/magic-the-gathering-sealed-products/box-sets/">MTG Box Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4163" href="https://www.facetofacegames.com/magic/magic-the-gathering-sealed-products/multiplayer-products/">MTG Multiplayer Products</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4178" href="https://www.facetofacegames.com/magic/magic-the-gathering-sealed-products/introductory-products/">MTG Introductory Products</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4185" href="https://www.facetofacegames.com/magic/magic-sealed-products/tournament-prerelease-packs/">MTG Tournament &amp; Prerelease Packs</a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/magic/magic-singles/" data-collapsible="navPages-3766" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="3766">
+                        MTG Cards <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-3766">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="3767" href="https://www.facetofacegames.com/magic/magic-singles/expansions/">MTG Expansions Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="3883" href="https://www.facetofacegames.com/magic/magic-singles/box-sets/">MTG Box Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="3972" href="https://www.facetofacegames.com/magic/magic-singles/core-sets/">MTG Core Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4054" href="https://www.facetofacegames.com/magic/magic-singles/non-tournament-play-legal/">MTG Gold and Silver Border Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4114" href="https://www.facetofacegames.com/magic/magic-singles/oversized-cards/">MTG Oversized Cards</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4130" href="https://www.facetofacegames.com/magic/magic-singles/promotional-cards/">MTG Promotional Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4010" href="https://www.facetofacegames.com/magic/magic-singles/special-editions/">MTG Special Editions</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6176" href="https://www.facetofacegames.com/magic/magic-singles/mtg-lots-and-bundles/">MTG Lots and Bundles</a>
+                        </li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+            </li>
+            <li class="navPages-item">
+                <a class="navPages-action has-subMenu" href="https://www.facetofacegames.com/pokemon/" data-collapsible="navPages-4583" data-category-translate="" data-category-id="4583">
+    Pokémon TCG <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+</a>
+<div class="navPage-subMenu" id="navPages-4583" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+        
+        <li class="navPage-subMenu-item">
+            <a class="navPage-subMenu-action navPages-action all" href="https://www.facetofacegames.com/pokemon/" data-category-translate="" data-category-id="4583">All Pokémon TCG</a>
+        </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/pokemon/new-releases/" data-collapsible="navPages-5300" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="5300">
+                        Pokémon TCG New Releases <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-5300">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6198" href="https://www.facetofacegames.com/pokemon-tcg/pokemon-tcg-new-releases/high-end-pokemon-cards/">High-end Pokémon Cards</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7992" href="https://www.facetofacegames.com/staging-category/pokemon-go/">Pokémon GO</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7993" href="https://www.facetofacegames.com/staging-category/astral-radiance/">Astral Radiance</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6859" href="https://www.facetofacegames.com/staging-category/brilliant-stars/">Brilliant Stars</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6800" href="https://www.facetofacegames.com/staging-category/fusion-strike/">Fusion Strike</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6651" href="https://www.facetofacegames.com/staging-category/celebrations/">Celebrations</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6640" href="https://www.facetofacegames.com/pokemon/new-releases/evolving-skies/">Evolving Skies</a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/pokemon-tcg/pokemon-tcg-sealed-products/" data-collapsible="navPages-4822" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="4822">
+                        Pokémon TCG Sealed Products <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-4822">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4823" href="https://www.facetofacegames.com/pokemon-tcg/pokemon-tcg-sealed-products/pokemon-tcg-booster-boxes/">Pokémon TCG Booster Boxes</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4824" href="https://www.facetofacegames.com/pokemon/pokemon-sealed-products/pokemon-booster-packs/">Pokémon TCG Booster Packs</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6203" href="https://www.facetofacegames.com/pokemon/pokemon-sealed-products/pokemon-elite-trainer-boxes/">Pokémon TCG Elite Trainer Boxes</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6204" href="https://www.facetofacegames.com/pokemon/pokemon-sealed-products/pokemon-tins-box-sets/">Pokémon TCG Tins &amp; Box Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4825" href="https://www.facetofacegames.com/pokemon/pokemon-sealed-products/pokemon-battle-theme-decks/">Pokémon TCG Battle &amp; Theme Decks</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4837" href="https://www.facetofacegames.com/pokemon/pokemon-sealed-products/pokemon-prerelease-packs/">Pokémon TCG Prerelease Packs</a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/pokemon/pokemon-singles/" data-collapsible="navPages-4584" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="4584">
+                        Pokémon TCG Cards <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-4584">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4585" href="https://www.facetofacegames.com/pokemon/pokemon-singles/pokemon-series/">Pokémon TCG Series Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4713" href="https://www.facetofacegames.com/pokemon/pokemon-singles/pokemon-promos/">Pokémon TCG Promotional Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4701" href="https://www.facetofacegames.com/pokemon/pokemon-singles/pokemon-trainer-kit-set/">Pokémon TCG Trainer Kit Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4738" href="https://www.facetofacegames.com/pokemon/pokemon-singles/pokemon-tcgo-unused-code-cards/">Pokémon TCGO Unused Code Cards</a>
+                        </li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+            </li>
+            <li class="navPages-item">
+                <a class="navPages-action has-subMenu" href="https://www.facetofacegames.com/yu-gi-oh/" data-collapsible="navPages-4878" data-category-translate="" data-category-id="4878">
+    Yu-Gi-Oh! <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+</a>
+<div class="navPage-subMenu" id="navPages-4878" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+        
+        <li class="navPage-subMenu-item">
+            <a class="navPage-subMenu-action navPages-action all" href="https://www.facetofacegames.com/yu-gi-oh/" data-category-translate="" data-category-id="4878">All Yu-Gi-Oh!</a>
+        </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/yu-gi-oh/new-releases/" data-collapsible="navPages-5296" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="5296">
+                        Yu-Gi-Oh! New Releases <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-5296">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6197" href="https://www.facetofacegames.com/yu-gi-oh/new-releases/scan-cards/">High-end Yu-Gi-Oh! Cards</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8346" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-new-releases/magnificent-mavens/">Magnificent Mavens</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8153" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-new-releases/battles-of-legend-crystal-revenge/">Battles of Legend: Crystal Revenge</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7977" href="https://www.facetofacegames.com/staging-category/speed-duel-gx-midterm-paradox/">Speed Duel GX: Midterm Paradox</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8142" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-new-releases/structure-deck-legend-of-the-crystal-beasts/">Structure Deck: Legend of the Crystal Beasts</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7976" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-new-releases/2022-tin-of-the-pharaohs-gods/">2022 Tin of the Pharaoh's Gods</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6924" href="https://www.facetofacegames.com/staging-category/tactical-masters/">Tactical Masters</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8128" href="https://www.facetofacegames.com/staging-category/power-of-the-elements/">Power of the Elements</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6890" href="https://www.facetofacegames.com/staging-category/legendary-duelists-season-3/">Legendary Duelists: Season 3</a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/" data-collapsible="navPages-5264" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="5264">
+                        Yu-Gi-Oh! Sealed Products <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-5264">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5265" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/yu-gi-oh-booster-boxes/">Yu-Gi-Oh! Booster Boxes</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5266" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/yu-gi-oh-booster-packs/">Yu-Gi-Oh! Booster Packs</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5267" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/collectible-tins/">Yu-Gi-Oh! Collectible Tins</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5271" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/yu-gi-oh-structure-decks/">Yu-Gi-Oh! Structure Decks</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5270" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/yu-gi-oh-starter-decks/">Yu-Gi-Oh! Starter Decks</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5269" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/yu-gi-oh-special-editions/">Yu-Gi-Oh! Special Editions</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5268" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-sealed-products/collectors-set/">Yu-Gi-Oh! Collector’s Sets</a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-singles/" data-collapsible="navPages-4879" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="4879">
+                        Yu-Gi-Oh! Cards <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-4879">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8025" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-cards/core-booster-sets/">Core Booster Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8026" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-cards/special-booster-sets/">Special Booster Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5409" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-singles/structure-decks-and-starter-decks/">Structure Deck and Starter Deck Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5216" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-singles/tournament-packs/">Tournament Packs Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="5255" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-singles/speed-duel/">Speed Duel Sets</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="4881" href="https://www.facetofacegames.com/yu-gi-oh/yu-gi-oh-singles/promotional-cards/">Promotional Sets</a>
+                        </li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+            </li>
+            <li class="navPages-item">
+                <a class="navPages-action has-subMenu" href="https://www.facetofacegames.com/acquisitions/other-games/" data-collapsible="navPages-6433" data-category-translate="" data-category-id="6433">
+    Other Games <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+</a>
+<div class="navPage-subMenu" id="navPages-6433" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+        
+        <li class="navPage-subMenu-item">
+            <a class="navPage-subMenu-action navPages-action all" href="https://www.facetofacegames.com/acquisitions/other-games/" data-category-translate="" data-category-id="6433">All Other Games</a>
+        </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/acquisitions/other-games/digimon/" data-collapsible="navPages-6437" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="6437">
+                        Digimon Card Game <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-6437">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6439" href="https://www.facetofacegames.com/acquisitions/other-games/digimon/digimon-sealed-products/">Digimon Card Game Sealed Products</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8199" href="https://www.facetofacegames.com/other-games/digimon-card-game/draconic-roar/">Draconic Roar</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8154" href="https://www.facetofacegames.com/other-games/digimon-card-game/xros-encounter/">Xros Encounter</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8012" href="https://www.facetofacegames.com/other-games/digimon-card-game/x-record/">X Record</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8013" href="https://www.facetofacegames.com/other-games/digimon-card-game/digital-hazard/">Digital Hazard</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8023" href="https://www.facetofacegames.com/other-games/digimon-card-game/new-awakening/">New Awakening</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8014" href="https://www.facetofacegames.com/other-games/digimon-card-game/next-adventure/">Next Adventure</a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/acquisitions/other-games/flesh-and-blood/" data-collapsible="navPages-6434" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="6434">
+                        Flesh and Blood <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-6434">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="6436" href="https://www.facetofacegames.com/acquisitions/other-games/flesh-and-blood/flesh-and-blood-sealed-products/">Flesh and Blood Sealed Products</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8145" href="https://www.facetofacegames.com/other-games/flesh-and-blood/uprising/">Uprising</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8353" href="https://www.facetofacegames.com/other-games/flesh-and-blood/classic-battles-rhinar-vs-dorinthea/">Classic Battles: Rhinar vs Dorinthea</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8132" href="https://www.facetofacegames.com/staging-category/history-pack-1/">History Pack 1</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8017" href="https://www.facetofacegames.com/other-games/flesh-and-blood/everfest/">Everfest</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8018" href="https://www.facetofacegames.com/other-games/flesh-and-blood/tales-of-aria/">Tales of Aria</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="8019" href="https://www.facetofacegames.com/other-games/flesh-and-blood/monarch/">Monarch</a>
+                        </li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+            </li>
+            <li class="navPages-item">
+                <a class="navPages-action has-subMenu" href="https://www.facetofacegames.com/supplies/" data-collapsible="navPages-4840" data-category-translate="" data-category-id="4840">
+    Supplies <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+</a>
+<div class="navPage-subMenu" id="navPages-4840" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+        
+        <li class="navPage-subMenu-item">
+            <a class="navPage-subMenu-action navPages-action all" href="https://www.facetofacegames.com/supplies/" data-category-translate="" data-category-id="4840">All Supplies</a>
+        </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action has-subMenu" href="https://www.facetofacegames.com/supplies/all-supplies/" data-collapsible="navPages-7941" data-collapsible-disabled-breakpoint="medium" data-collapsible-disabled-state="open" data-collapsible-enabled-state="closed" data-category-translate="" data-category-id="7941">
+                        All Supplies <svg class="icon icon-dropdown"><use xlink:href="#icon-dropdown"></use></svg>
+                    </a>
+                    <ul class="navPage-childList" id="navPages-7941">
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7942" href="https://www.facetofacegames.com/supplies/all-supplies/sleeves/">Sleeves</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7949" href="https://www.facetofacegames.com/supplies/all-supplies/deck-boxes/">Deck Boxes</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7953" href="https://www.facetofacegames.com/supplies/all-supplies/binders/">Binders</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7962" href="https://www.facetofacegames.com/supplies/all-supplies/playmats/">Playmats</a>
+                        </li>
+                        <li class="navPage-childList-item">
+                            <a class="navPage-childList-action navPages-action" data-category-translate="" data-category-id="7967" href="https://www.facetofacegames.com/supplies/all-supplies/miscellaneous-supplies/">Miscellaneous Supplies</a>
+                        </li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+            </li>
+    </ul>
+    <ul class="navPages-list navPages-list--user">
+            <ul class="navPages-list navPages-list--page">
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="mtg-articles" href="https://magic.facetofacegames.com/">MTG Articles</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="f2f-tour" href="http://f2ftour.com/">F2F Tour</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="montr-al-store" href="https://www.facetofacegames.com/montreal/">Montréal Store</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="toronto-store" href="https://www.facetofacegames.com/toronto/">Toronto Store</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" data-category-translate="" data-category-id="customer-service" href="http://support.facetofacegames.com/">Customer Service</a>
+                    </li>
+        <li class="navPages-item navPages-item-page navPages-item-english">
+            <a class="navPages-action" href="/giftcertificates.php" aria-label="Gift Certificates">Gift Certificates</a>
+        </li>
+    </ul>
+    </ul>
+</nav>
+        </div>
+        
+        <div class="dropdown dropdown--quickSearch" id="quickSearch" aria-hidden="true" tabindex="-1" data-prevent-quick-search-close="">
+            <div data-hawksearch-component="search-box" data-hawksearch-sdk="vue" data-hawksearch-landingpage="" data-hawksearch-config="{&quot;apiUrl&quot;:&quot;https://searchapi.hawksearch.com/&quot;,&quot;clientGuid&quot;:&quot;30c874915d164f71bf6f84f594bf623f&quot;,&quot;dashboardUrl&quot;:&quot;https://manage.hawksearch.com/&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;link&quot;},&quot;recommendationUrl&quot;:&quot;https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems&quot;,&quot;resultItem&quot;:{&quot;itemSelect&quot;:true,&quot;linkField&quot;:&quot;url_detail&quot;},&quot;searchConfig&quot;:{&quot;scrollUpOnRefresh&quot;:true},&quot;trackConfig&quot;:[&quot;Search&quot;,&quot;PageLoad&quot;,&quot;Click&quot;,&quot;BannerImpression&quot;,&quot;BannerClick&quot;,&quot;AutocompleteClick&quot;],&quot;trackEventUrl&quot;:&quot;https://tracking.hawksearch.com/api/trackevent/&quot;}">
+
+    <div class="hawk">
+        <div class="hawk__header">
+            <search-box search-page="/search/"></search-box>
+        </div>
+    </div>
+</div>
+
+<script id="vue-hawksearch-search-box" type="x-template">
+    <div class="hawk__searchBox" @click="onClick">
+        <div class="hawk__searchBox__searchInput">
+            <input type="text" :placeholder="$t('Enter a search term')" v-model="keyword" @input="onInput" @keydown="onKeyDown" @blur="onBlur" />
+        </div>
+        <span class="search-submit" v-on:click="search()">
+            <svg class="icon icon-search">
+                <use xlink:href="#icon-search"></use>
+            </svg>
+            <span>Search Now</span>
+        </span>
+        <search-suggestions :field-focused="fieldFocused"></search-suggestions>
+    </div>
+</script>
+            <a class="advanced-mobile quickSearch-mobile-button button" href="/advanced-search/">advanced search</a>
+            <a class="deck-mobile quickSearch-mobile-button button" href="#">Deck Builder</a>
+        </div>
+    </div>
+</header>
+<div data-content-region="header_bottom"></div>
+        <div class="body interior
+    
+" data-currency-code="CAD">
+     
+    <div class="container">
+     
+            <div class="page" id="hawksearch__search-page">
+        <div class="hawk">
+            <ul class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <li class="breadcrumb is-active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                        <meta itemprop="item" content="https://www.facetofacegames.com/">
+                        <span class="breadcrumb-label" itemprop="name">Home</span>
+                    <meta itemprop="position" content="1">
+                </li>
+</ul>
+            <div data-hawksearch-component="search-results-label" data-hawksearch-sdk="vue" data-hawksearch-config="{&quot;apiUrl&quot;:&quot;https://searchapi.hawksearch.com/&quot;,&quot;clientGuid&quot;:&quot;30c874915d164f71bf6f84f594bf623f&quot;,&quot;dashboardUrl&quot;:&quot;https://manage.hawksearch.com/&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;link&quot;},&quot;recommendationUrl&quot;:&quot;https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems&quot;,&quot;resultItem&quot;:{&quot;itemSelect&quot;:true,&quot;linkField&quot;:&quot;url_detail&quot;},&quot;searchConfig&quot;:{&quot;scrollUpOnRefresh&quot;:true},&quot;trackConfig&quot;:[&quot;Search&quot;,&quot;PageLoad&quot;,&quot;Click&quot;,&quot;BannerImpression&quot;,&quot;BannerClick&quot;,&quot;AutocompleteClick&quot;],&quot;trackEventUrl&quot;:&quot;https://tracking.hawksearch.com/api/trackevent/&quot;}">
+
+    <div class="hawk">
+        <search-results-label>
+    </search-results-label></div>
+</div>
+            <div class="hawk__body hawk_body__search">
+                <div class="hawk__sidebar">
+                    <div data-hawksearch-component="facet-list" data-hawksearch-sdk="vue" data-hawksearch-landingpage="" data-hawksearch-config="{&quot;apiUrl&quot;:&quot;https://searchapi.hawksearch.com/&quot;,&quot;clientGuid&quot;:&quot;30c874915d164f71bf6f84f594bf623f&quot;,&quot;dashboardUrl&quot;:&quot;https://manage.hawksearch.com/&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;link&quot;},&quot;recommendationUrl&quot;:&quot;https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems&quot;,&quot;resultItem&quot;:{&quot;itemSelect&quot;:true,&quot;linkField&quot;:&quot;url_detail&quot;},&quot;searchConfig&quot;:{&quot;scrollUpOnRefresh&quot;:true},&quot;trackConfig&quot;:[&quot;Search&quot;,&quot;PageLoad&quot;,&quot;Click&quot;,&quot;BannerImpression&quot;,&quot;BannerClick&quot;,&quot;AutocompleteClick&quot;],&quot;trackEventUrl&quot;:&quot;https://tracking.hawksearch.com/api/trackevent/&quot;}">
+
+     <div class="toggle-facets-container">
+        <p class="toggle-facets"><span class="view">View</span><span class="hide">Hide</span> Filters <svg><use xlink:href="#facet-arrow"></use></svg></p>
+        <facet-list class="toggle-facets-list"></facet-list>
+    </div>
+</div>
+
+<script id="vue-hawksearch-facet-list" type="x-template">
+    <div v-if="!waitingForInitialSearch" class="hawk-facet-rail">
+        <div class="hawk-facet-rail__heading">
+            <span>Filter Results</span>
+        </div>
+        <div>
+            <selections />
+
+            <div class="hawk-facet-rail__facet-list">
+                <template v-if="facets && facets.length">
+                    <facet v-for="facetData in facets" :key="facetData.FacetId" :facet-data="facetData" @expand="onExpand"></facet>
+                </template>
+                <template v-else-if="loadingResults">
+                    <placeholder-facet v-for="index in 4" :key="index"></placeholder-facet>
+                </template>
+                <template v-else>
+                    <div class="hawk-facet-rail_empty"></div>
+                </template>
+            </div>
+        </div>
+    </div>
+</script>
+                </div>
+                <div class="hawksearch__right">
+                    <div data-hawksearch-component="banner" data-hawksearch-sdk="vue" data-hawksearch-config="{&quot;apiUrl&quot;:&quot;https://searchapi.hawksearch.com/&quot;,&quot;clientGuid&quot;:&quot;30c874915d164f71bf6f84f594bf623f&quot;,&quot;dashboardUrl&quot;:&quot;https://manage.hawksearch.com/&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;link&quot;},&quot;recommendationUrl&quot;:&quot;https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems&quot;,&quot;resultItem&quot;:{&quot;itemSelect&quot;:true,&quot;linkField&quot;:&quot;url_detail&quot;},&quot;searchConfig&quot;:{&quot;scrollUpOnRefresh&quot;:true},&quot;trackConfig&quot;:[&quot;Search&quot;,&quot;PageLoad&quot;,&quot;Click&quot;,&quot;BannerImpression&quot;,&quot;BannerClick&quot;,&quot;AutocompleteClick&quot;],&quot;trackEventUrl&quot;:&quot;https://tracking.hawksearch.com/api/trackevent/&quot;}">
+
+    <div class="hawk">
+        <banner></banner>
+    </div>
+</div>
+                    <div data-hawksearch-component="results" data-hawksearch-sdk="vue" data-hawksearch-landingpage="" data-hawksearch-config="{&quot;apiUrl&quot;:&quot;https://searchapi.hawksearch.com/&quot;,&quot;clientGuid&quot;:&quot;30c874915d164f71bf6f84f594bf623f&quot;,&quot;dashboardUrl&quot;:&quot;https://manage.hawksearch.com/&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;link&quot;},&quot;recommendationUrl&quot;:&quot;https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems&quot;,&quot;resultItem&quot;:{&quot;itemSelect&quot;:true,&quot;linkField&quot;:&quot;url_detail&quot;},&quot;searchConfig&quot;:{&quot;scrollUpOnRefresh&quot;:true},&quot;trackConfig&quot;:[&quot;Search&quot;,&quot;PageLoad&quot;,&quot;Click&quot;,&quot;BannerImpression&quot;,&quot;BannerClick&quot;,&quot;AutocompleteClick&quot;],&quot;trackEventUrl&quot;:&quot;https://tracking.hawksearch.com/api/trackevent/&quot;}">
+
+    <results></results>
+</div>
+
+<script id="vue-hawksearch-results" type="x-template">
+    <div class="hawk-results" @click="onClick">
+        <autocorrect-suggestions />
+
+        <template v-if="searchError">
+            <p>{{ $t('response_error_generic') }}</p>
+            <br />
+            <br />
+        </template>
+        <template v-else-if="searchOutput && searchOutput.Results && searchOutput.Results.length == 0">
+            <p>{{ $t('No Results') }}</p>
+            <br />
+            <br />
+        </template>
+        <template v-else-if="!waitingForInitialSearch">
+            <tabs></tabs>
+
+            <div class="hawk-results__top-tool-row">
+                <tool-row />
+            </div>
+
+            <result-listing />
+
+            <div class="hawk-results__bottom-tool-row">
+                <tool-row />
+            </div>
+        </template>
+
+    </div>
+</script>                </div>
+            </div>
+        </div>
+    </div>
+
+       
+    </div>
+    <div id="modal" class="modal" data-reveal="" data-prevent-quick-search-close="">
+    <a href="#" class="modal-close" aria-label="Close" role="button">
+        <span aria-hidden="true">×</span>
+    </a>
+    <div class="modal-content"></div>
+    <div class="loadingOverlay"></div>
+</div>
+    <div id="alert-modal" class="modal modal--alert modal--small" data-reveal="" data-prevent-quick-search-close="">
+    <div class="swal2-icon swal2-error swal2-animate-error-icon"><span class="swal2-x-mark swal2-animate-x-mark"><span class="swal2-x-mark-line-left"></span><span class="swal2-x-mark-line-right"></span></span></div>
+
+    <div class="modal-content"></div>
+
+    <div class="button-container"><button type="button" class="confirm button" data-reveal-close="">OK</button></div>
+</div>
+</div>
+        <footer class="footer" role="contentinfo">
+    <section class="footer-info">
+        <div class="container container-flex--medium_up">
+            <article class="footer-info-col footer-info-col--storeInfo" data-section-type="storeInfo">
+                <a href="/" class="footer-logo hidden" data-lang="fr">
+                    <img src="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/img/logo-white-french.svg" alt="Face To Face Games" title="Face To Face Games">
+                </a>
+                <a href="/" class="footer-logo" data-lang="en">
+                    <img src="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/img/logo-white.svg" alt="Face To Face Games" title="Face To Face Games">
+                </a>
+                    <div class="footer-store-contact-info">
+                            <a href="tel:1-866-235-7002"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg> 1-866-235-7002 ext. 1</a>
+    
+                        <a href="mailto:customerservice@facetofacegames.com">
+                            <svg class="icon icon-email"><use xlink:href="#icon-email"></use></svg>
+                            Customer Service
+                        </a>
+                    </div>
+            </article>
+
+            <article class="footer-info-col footer-info-col--categories" data-section-type="footer-categories">
+                <ul class="footer-info-list">
+                        <li>
+                            <a href="https://www.facetofacegames.com/weeky-sales/">Weekly Sales</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facetofacegames.com/magic/">Magic: The Gathering</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facetofacegames.com/pokemon/">Pokémon TCG</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facetofacegames.com/yu-gi-oh/">Yu-Gi-Oh!</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facetofacegames.com/acquisitions/other-games/">Other Games</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facetofacegames.com/supplies/">Supplies</a>
+                        </li>
+                </ul>
+            </article>
+
+            <article class="footer-info-col footer-info-col--media">
+                    <div class="footer-info-col--social footer-info-col--right" data-section-type="footer-webPages">
+                                <ul class="socialLinks socialLinks--alt">
+            <li class="socialLinks-item">
+                <a class="icon icon--facebook" href="https://www.facebook.com/pg/FaceToFaceGames" target="_blank">
+                    <svg><use xlink:href="#icon-facebook"></use></svg>
+                </a>
+            </li>
+            <li class="socialLinks-item">
+                <a class="icon icon--twitter" href="https://twitter.com/FaceToFaceGames" target="_blank">
+                    <svg><use xlink:href="#icon-twitter"></use></svg>
+                </a>
+            </li>
+    </ul>
+                    </div>
+                <div class="footer-info-col--subscription" data-section-type="newsletterSubscription">
+                        <form class="form form-subscription" action="/subscribe.php" method="post">
+    <fieldset class="form-fieldset">
+        <input type="hidden" name="action" value="subscribe">
+        <input type="hidden" name="nl_first_name" value="bc">
+        <input type="hidden" name="check" value="1">
+        <div class="form-field">
+            <label class="form-label is-srOnly" for="nl_email">Email Address</label>
+            <div class="form-prefixPostfix wrap">
+                <input class="form-input" id="nl_email" name="nl_email" type="email" value="" placeholder="Your email">
+                <input class="button button--primary form-prefixPostfix-button--postfix" type="submit" value="Sign Up">
+            </div>
+        </div>
+    </fieldset>
+</form>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="footer-bottom">
+        <div class="container">
+            <ul class="footer-webPages hidden" data-lang="fr">
+                                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://discord.gg/zBPK6Ug">Joignez notre Discord!</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/emplacements/">Emplacements</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://careers.facetofacegames.com">Emplois</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/guide-devaluation/">Guide d’évaluation</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="http://support.facetofacegames.com/">FAQ</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/termes-et-conditions/">Termes et conditions</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/politique-de-confidentialite/">Politique de confidentialité</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/a-propos-de-nous/">À propos de nous</a>
+                    </li>
+            </ul>
+            <ul class="footer-webPages" data-lang="en">
+                                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://discord.gg/zBPK6Ug">Join our Discord!</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/locations/">Locations</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://careers.facetofacegames.com">Careers</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/grading-guide/">Grading Guide</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="http://support.facetofacegames.com/">FAQs</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/terms-conditions/">Terms &amp; Conditions</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/privacy-policy/">Privacy Policy</a>
+                    </li>
+                    <li class="navPages-item navPages-item-page navPages-item-english">
+                        <a class="navPages-action" href="https://www.facetofacegames.com/about-us/">About Us</a>
+                    </li>
+            </ul>
+
+                <div class="footer-copyright">
+                    <p class="powered-by">© Copyright 2022 Face To Face Games. All Rights Reserved</p>
+                </div>
+        </div>
+    </section>
+</footer>
+
+        <script>window.__webpack_public_path__ = "https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/dist/";</script>
+        <script src="https://cdn11.bigcommerce.com/s-641uhzxs7j/stencil/a58bf1a0-e670-013a-05f5-5a8fcf348954/e/2e67b530-e977-013a-36de-7a2c0a779362/dist/theme-bundle.main.js"></script>
+        <script>
+            window.stencilBootstrap("page", "{\"themeSettings\":{\"acq_store_url\":\"https://buylist.facetofacegames.com/\",\"alert-backgroundColor\":\"#ffffff\",\"alert-color\":\"#333333\",\"alert-color-alt\":\"#ffffff\",\"api_aci\":\"fofeecjdszopvr4xjzzrmvokoyag1ch\",\"applePay-button\":\"black\",\"blockquote-cite-font-color\":\"#999999\",\"blog_size\":\"352x188\",\"body-bg\":\"#ffffff\",\"body-font\":\"Google_Barlow\",\"brand_size\":\"190x250\",\"brandpage_products_per_page\":16,\"button--default-borderColor\":\"#cccccc\",\"button--default-borderColorActive\":\"#757575\",\"button--default-borderColorHover\":\"#999999\",\"button--default-color\":\"#666666\",\"button--default-colorActive\":\"#000000\",\"button--default-colorHover\":\"#333333\",\"button--disabled-backgroundColor\":\"#cccccc\",\"button--disabled-borderColor\":\"transparent\",\"button--disabled-color\":\"#ffffff\",\"button--icon-svg-color\":\"#757575\",\"button--primary-backgroundColor\":\"#444444\",\"button--primary-backgroundColorActive\":\"#000000\",\"button--primary-backgroundColorHover\":\"#666666\",\"button--primary-color\":\"#ffffff\",\"button--primary-colorActive\":\"#ffffff\",\"button--primary-colorHover\":\"#ffffff\",\"button--primary-dark\":\"#303030\",\"button-font\":\"Google_Teko\",\"button-hero_0\":\"MAGASINEZ\",\"button-hero_1\":\"MAGASINEZ\",\"button-hero_2\":\"CLIQUEZ ICI\",\"button-hero_3\":\"\",\"button-hero_4\":\"\",\"card--alternate-backgroundColor\":\"#ffffff\",\"card--alternate-borderColor\":\"#ffffff\",\"card--alternate-color--hover\":\"#ffffff\",\"card-figcaption-button-background\":\"#ffffff\",\"card-figcaption-button-color\":\"#333333\",\"card-title-color\":\"#333333\",\"card-title-color-hover\":\"#757575\",\"carousel-arrow-bgColor\":\"#ffffff\",\"carousel-arrow-borderColor\":\"#ffffff\",\"carousel-arrow-color\":\"#999999\",\"carousel-bgColor\":\"#ffffff\",\"carousel-description-color\":\"#333333\",\"carousel-dot-bgColor\":\"#ffffff\",\"carousel-dot-color\":\"#333333\",\"carousel-dot-color-active\":\"#757575\",\"carousel-title-color\":\"#444444\",\"cart-button-border-color\":\"#aeaeae\",\"cart-quantity-border-color\":\"#D95426\",\"categorypage_products_per_page\":16,\"checkRadio-backgroundColor\":\"#ffffff\",\"checkRadio-borderColor\":\"#cccccc\",\"checkRadio-color\":\"#333333\",\"color-advanced\":\"#1E3949\",\"color-black\":\"#000000\",\"color-blog-body\":\"#38372E\",\"color-blog-title\":\"#271D12\",\"color-border\":\"#C3D6E4\",\"color-bottom-event-background\":\"#095277\",\"color-breadcrumb-current\":\"#5C5C5C\",\"color-btn\":\"#00396F\",\"color-error\":\"#cc4749\",\"color-errorLight\":\"#ffdddd\",\"color-event-post\":\"#38372E\",\"color-event-title\":\"#271D12\",\"color-filter-accordion-bg\":\"#F6F6F6\",\"color-filter-accordion-border\":\"#B6B5B5\",\"color-grey\":\"#999999\",\"color-greyDark\":\"#666666\",\"color-greyDarker\":\"#333333\",\"color-greyDarkest\":\"#000000\",\"color-greyLight\":\"#999999\",\"color-greyLighter\":\"#cccccc\",\"color-greyLightest\":\"#e5e5e5\",\"color-greyMedium\":\"#757575\",\"color-hero-content\":\"#0A0A08\",\"color-info\":\"#666666\",\"color-infoLight\":\"#dfdfdf\",\"color-label\":\"#00101F\",\"color-legend\":\"#2A2A22\",\"color-light\":\"#D8D8D8\",\"color-login-bg\":\"#EDEEEF\",\"color-orange\":\"#C64D23\",\"color-orange-border\":\"#D9521E\",\"color-orange-light\":\"#C74E1D\",\"color-primary\":\"#757575\",\"color-primaryDark\":\"#303030\",\"color-primaryDarker\":\"#333333\",\"color-primaryLight\":\"#999999\",\"color-purple\":\"#31156A\",\"color-secondary\":\"#ffffff\",\"color-secondaryDark\":\"#e5e5e5\",\"color-secondaryDarker\":\"#cccccc\",\"color-stock\":\"#07705A\",\"color-success\":\"#008a06\",\"color-successLight\":\"#d5ffd8\",\"color-textBase\":\"#38372E\",\"color-textBase--active\":\"#757575\",\"color-textBase--hover\":\"#757575\",\"color-textBase-black\":\"#303030\",\"color-textHeading\":\"#444444\",\"color-textLink\":\"#333333\",\"color-textLink--active\":\"#757575\",\"color-textLink--hover\":\"#757575\",\"color-textSecondary\":\"#757575\",\"color-textSecondary--active\":\"#333333\",\"color-textSecondary--hover\":\"#333333\",\"color-top-event-background\":\"#C64D23\",\"color-tournaments-date\":\"#3B494E\",\"color-tournaments-date-lighlight\":\"#C64D23\",\"color-tournaments-divider\":\"#141414\",\"color-tournaments-mobile-divider\":\"#421D0F\",\"color-warning\":\"#f1a500\",\"color-warningLight\":\"#fffdea\",\"color-white\":\"#ffffff\",\"color-whitesBase\":\"#e5e5e5\",\"color_badge_product_sale_badges\":\"#007dc6\",\"color_hover_product_sale_badges\":\"#000000\",\"color_text_product_sale_badges\":\"#ffffff\",\"container-border-global-color-base\":\"#e5e5e5\",\"container-fill-base\":\"#ffffff\",\"container-fill-dark\":\"#e5e5e5\",\"default_image_brand\":\"img/BrandDefault.gif\",\"default_image_gift_certificate\":\"img/GiftCertificate.png\",\"default_image_product\":\"img/ProductDefault.jpg\",\"description-hero_0\":\"\",\"description-hero_1\":\"\",\"description-hero_2\":\"\",\"description-hero_3\":\"\",\"description-hero_4\":\"\",\"dropdown--quickSearch-backgroundColor\":\"#e5e5e5\",\"dropdown--wishList-backgroundColor\":\"#ffffff\",\"font-roboto\":\"Google_Roboto+Condensed_400\",\"fontSize-h1\":28,\"fontSize-h2\":25,\"fontSize-h3\":22,\"fontSize-h4\":20,\"fontSize-h5\":15,\"fontSize-h6\":13,\"fontSize-root\":14,\"footer-backgroundColor\":\"#000000\",\"footer-mobile-bacgkroundColor\":\"#141414\",\"form-label-font-color\":\"#666666\",\"gallery_size\":\"300x300\",\"geotrust_ssl_common_name\":\"\",\"geotrust_ssl_seal_size\":\"M\",\"hawksearch-border\":\"#b6b5b5\",\"hawksearch-check-borderColor\":\"#555555\",\"hawksearch-config\":{\"apiUrl\":\"https://searchapi.hawksearch.com/\",\"clientGuid\":\"30c874915d164f71bf6f84f594bf623f\",\"dashboardUrl\":\"https://manage.hawksearch.com/\",\"pagination\":{\"type\":\"link\"},\"recommendationUrl\":\"https://recs.hawksearch.com/api/recommendation/v2/getwidgetitems\",\"resultItem\":{\"itemSelect\":true,\"linkField\":\"url_detail\"},\"searchConfig\":{\"scrollUpOnRefresh\":true},\"trackConfig\":[\"Search\",\"PageLoad\",\"Click\",\"BannerImpression\",\"BannerClick\",\"AutocompleteClick\"],\"trackEventUrl\":\"https://tracking.hawksearch.com/api/trackevent/\"},\"hawksearch-filter-heading-color\":\"#1e3949\",\"hawksearch-filter-icon-color\":\"#3b494e\",\"hawksearch-gray\":\"#f7f7f8\",\"hawksearch-radio-borderColor\":\"#979797\",\"hawksearch-row-background\":\"#f2f2f2\",\"hawksearch-tab-background\":\"#e4e4e4\",\"hawksearch-tab-color\":\"#343434\",\"header-backgroundColor\":\"#ffffff\",\"headings-font\":\"Google_Teko\",\"hide_blog_page_heading\":false,\"hide_breadcrumbs\":false,\"hide_category_page_heading\":false,\"hide_contact_us_page_heading\":false,\"hide_content_navigation\":false,\"hide_page_heading\":false,\"homepage_blog_posts_count\":3,\"homepage_featured_products_column_count\":4,\"homepage_featured_products_count\":0,\"homepage_new_products_column_count\":4,\"homepage_new_products_count\":0,\"homepage_show_carousel\":true,\"homepage_show_carousel_arrows\":true,\"homepage_stretch_carousel_images\":false,\"homepage_top_products_column_count\":4,\"homepage_top_products_count\":0,\"icon-color\":\"#757575\",\"icon-color-hover\":\"#999999\",\"icon-ratingEmpty\":\"#cccccc\",\"icon-ratingFull\":\"#757575\",\"image-hero_0\":\"web-augustus-fr-copy.jpg\",\"image-hero_1\":\"web-seize2-fr-copy.jpg\",\"image-hero_2\":\"web-areback-fr-copy.jpg\",\"image-hero_3\":\"\",\"image-hero_4\":\"\",\"input-bg-color\":\"#ffffff\",\"input-border-color\":\"#aeaeae\",\"input-border-color-active\":\"#999999\",\"input-disabled-bg\":\"#ffffff\",\"input-font-color\":\"#666666\",\"is_dev\":false,\"label-backgroundColor\":\"#c64d23\",\"label-color\":\"#ffffff\",\"lazyload_mode\":\"lazyload+lqip\",\"loadingOverlay-backgroundColor\":\"#ffffff\",\"logo-position\":\"left\",\"logo_fontSize\":28,\"logo_size\":\"250x100\",\"main-navigation-font\":\"Google_Barlow+Condensed_700\",\"middleware_dev\":\"https://facetofacegames-dev.idevdesign.net\",\"middleware_live\":\"https://facetofacegames-live.ae-admin.com/\",\"navPages-color\":\"#333333\",\"navPages-color-hover\":\"#757575\",\"navPages-subMenu-backgroundColor\":\"#e5e5e5\",\"navPages-subMenu-separatorColor\":\"#cccccc\",\"navPages-webpages-font\":\"Google_Barlow\",\"navUser-border-color\":\"#979797\",\"navUser-color\":\"#ffffff\",\"navUser-color-hover\":\"#757575\",\"navUser-currency-font\":\"Google_Barlow+Condensed\",\"navUser-dropdown-backgroundColor\":\"#ffffff\",\"navUser-dropdown-borderColor\":\"#cccccc\",\"navUser-header-background\":\"#303030\",\"navUser-indicator-backgroundColor\":\"#333333\",\"navUser-is-actived\":\"#38372E\",\"navigation_design\":\"simple\",\"optimizedCheckout-backgroundImage\":\"\",\"optimizedCheckout-backgroundImage-size\":\"1000x400\",\"optimizedCheckout-body-backgroundColor\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-backgroundColor\":\"#333333\",\"optimizedCheckout-buttonPrimary-backgroundColorActive\":\"#000000\",\"optimizedCheckout-buttonPrimary-backgroundColorDisabled\":\"#cccccc\",\"optimizedCheckout-buttonPrimary-backgroundColorHover\":\"#666666\",\"optimizedCheckout-buttonPrimary-borderColor\":\"#333333\",\"optimizedCheckout-buttonPrimary-borderColorActive\":\"transparent\",\"optimizedCheckout-buttonPrimary-borderColorDisabled\":\"transparent\",\"optimizedCheckout-buttonPrimary-borderColorHover\":\"transparent\",\"optimizedCheckout-buttonPrimary-color\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-colorActive\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-colorDisabled\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-colorHover\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-font\":\"Google_Montserrat_500\",\"optimizedCheckout-buttonSecondary-backgroundColor\":\"#ffffff\",\"optimizedCheckout-buttonSecondary-backgroundColorActive\":\"#e5e5e5\",\"optimizedCheckout-buttonSecondary-backgroundColorHover\":\"#f5f5f5\",\"optimizedCheckout-buttonSecondary-borderColor\":\"#cccccc\",\"optimizedCheckout-buttonSecondary-borderColorActive\":\"#757575\",\"optimizedCheckout-buttonSecondary-borderColorHover\":\"#999999\",\"optimizedCheckout-buttonSecondary-color\":\"#333333\",\"optimizedCheckout-buttonSecondary-colorActive\":\"#000000\",\"optimizedCheckout-buttonSecondary-colorHover\":\"#333333\",\"optimizedCheckout-buttonSecondary-font\":\"Google_Montserrat_500\",\"optimizedCheckout-colorFocus\":\"#4496f6\",\"optimizedCheckout-contentPrimary-color\":\"#333333\",\"optimizedCheckout-contentPrimary-font\":\"Google_Montserrat_500\",\"optimizedCheckout-contentSecondary-color\":\"#757575\",\"optimizedCheckout-contentSecondary-font\":\"Google_Montserrat_500\",\"optimizedCheckout-discountBanner-backgroundColor\":\"#e5e5e5\",\"optimizedCheckout-discountBanner-iconColor\":\"#333333\",\"optimizedCheckout-discountBanner-textColor\":\"#333333\",\"optimizedCheckout-form-textColor\":\"#666666\",\"optimizedCheckout-formChecklist-backgroundColor\":\"#ffffff\",\"optimizedCheckout-formChecklist-backgroundColorSelected\":\"#f5f5f5\",\"optimizedCheckout-formChecklist-borderColor\":\"#cccccc\",\"optimizedCheckout-formChecklist-color\":\"#333333\",\"optimizedCheckout-formField-backgroundColor\":\"#ffffff\",\"optimizedCheckout-formField-borderColor\":\"#cccccc\",\"optimizedCheckout-formField-errorColor\":\"#d14343\",\"optimizedCheckout-formField-inputControlColor\":\"#476bef\",\"optimizedCheckout-formField-placeholderColor\":\"#999999\",\"optimizedCheckout-formField-shadowColor\":\"transparent\",\"optimizedCheckout-formField-textColor\":\"#333333\",\"optimizedCheckout-header-backgroundColor\":\"#f5f5f5\",\"optimizedCheckout-header-borderColor\":\"#dddddd\",\"optimizedCheckout-header-textColor\":\"#333333\",\"optimizedCheckout-headingPrimary-color\":\"#333333\",\"optimizedCheckout-headingPrimary-font\":\"Google_Montserrat_700\",\"optimizedCheckout-headingSecondary-color\":\"#333333\",\"optimizedCheckout-headingSecondary-font\":\"Google_Montserrat_700\",\"optimizedCheckout-link-color\":\"#476bef\",\"optimizedCheckout-link-font\":\"Google_Montserrat_500\",\"optimizedCheckout-link-hoverColor\":\"#002fe1\",\"optimizedCheckout-loadingToaster-backgroundColor\":\"#333333\",\"optimizedCheckout-loadingToaster-textColor\":\"#ffffff\",\"optimizedCheckout-logo\":\"\",\"optimizedCheckout-logo-position\":\"left\",\"optimizedCheckout-logo-size\":\"250x100\",\"optimizedCheckout-orderSummary-backgroundColor\":\"#ffffff\",\"optimizedCheckout-orderSummary-borderColor\":\"#dddddd\",\"optimizedCheckout-show-backgroundImage\":false,\"optimizedCheckout-show-logo\":\"none\",\"optimizedCheckout-step-backgroundColor\":\"#757575\",\"optimizedCheckout-step-borderColor\":\"#dddddd\",\"optimizedCheckout-step-textColor\":\"#ffffff\",\"overlay-backgroundColor\":\"#333333\",\"pace-progress-backgroundColor\":\"#999999\",\"paymentbuttons-paypal-color\":\"gold\",\"paymentbuttons-paypal-fundingicons\":false,\"paymentbuttons-paypal-label\":\"checkout\",\"paymentbuttons-paypal-layout\":\"vertical\",\"paymentbuttons-paypal-shape\":\"pill\",\"paymentbuttons-paypal-size\":\"responsive\",\"paymentbuttons-paypal-tagline\":false,\"pdp-custom-fields-tab-label\":\"Additional Information\",\"pdp-non-sale-price-label\":\"Was:\",\"pdp-price-label\":\"\",\"pdp-retail-price-label\":\"MSRP:\",\"pdp-sale-price-label\":\"Now:\",\"price_ranges\":true,\"product_list_display_mode\":\"grid\",\"product_sale_badges\":\"none\",\"product_size\":\"500x380\",\"productgallery_size\":\"250x359\",\"productpage_related_products_count\":10,\"productpage_reviews_count\":9,\"productpage_similar_by_views_count\":10,\"productpage_videos_count\":8,\"productthumb_size\":\"100x100\",\"productview_thumb_size\":\"110x80\",\"restrict_to_login\":false,\"retail-store_url\":\"https://www.facetofacegames.com/\",\"searchpage_products_per_page\":16,\"select-arrow-color\":\"#757575\",\"select-bg-color\":\"#ffffff\",\"shop_by_brand_show_footer\":true,\"shop_by_price_visibility\":true,\"show_accept_amazonpay\":false,\"show_accept_amex\":false,\"show_accept_discover\":false,\"show_accept_googlepay\":false,\"show_accept_mastercard\":false,\"show_accept_paypal\":false,\"show_accept_visa\":false,\"show_copyright_footer\":true,\"show_custom_fields_tabs\":false,\"show_powered_by\":true,\"show_product_details_tabs\":true,\"show_product_dimensions\":false,\"show_product_quantity_box\":true,\"show_product_quick_view\":false,\"show_product_reviews_tabs\":false,\"show_product_weight\":true,\"social_icon_placement_bottom\":\"bottom_right\",\"social_icon_placement_top\":false,\"spinner-borderColor-dark\":\"#999999\",\"spinner-borderColor-light\":\"#ffffff\",\"storeName-color\":\"#333333\",\"supported_card_type_icons\":[\"american_express\",\"diners\",\"discover\",\"mastercard\",\"visa\"],\"swatch_option_size\":\"22x22\",\"text-font\":\"Google_PT+Sans\",\"thumb_size\":\"100x100\",\"title-hero_0\":\"Vente D'Augustus\",\"title-hero_1\":\"Vente D'Augustus Flash\",\"title-hero_2\":\"Horaire hebdomadaire\",\"title-hero_3\":\"\",\"title-hero_4\":\"\",\"tournaments-font\":\"Google_Barlow+Condensed_500\",\"zoom_size\":\"1280x1280\"},\"genericError\":\"Oops! Something went wrong.\",\"maintenanceMode\":[],\"urls\":{\"account\":{\"add_address\":\"/account.php?action=add_shipping_address\",\"addresses\":\"/account.php?action=address_book\",\"details\":\"/account.php?action=account_details\",\"inbox\":\"/account.php?action=inbox\",\"index\":\"/account.php\",\"orders\":{\"all\":\"/account.php?action=order_status\",\"completed\":\"/account.php?action=view_orders\",\"save_new_return\":\"/account.php?action=save_new_return\"},\"payment_methods\":{\"all\":\"/account.php?action=payment_methods\"},\"recent_items\":\"/account.php?action=recent_items\",\"returns\":\"/account.php?action=view_returns\",\"send_message\":\"/account.php?action=send_message\",\"update_action\":\"/account.php?action=update_account\",\"wishlists\":{\"add\":\"/wishlist.php?action=addwishlist\",\"all\":\"/wishlist.php\",\"delete\":\"/wishlist.php?action=deletewishlist\",\"edit\":\"/wishlist.php?action=editwishlist\"}},\"auth\":{\"check_login\":\"/login.php?action=check_login\",\"create_account\":\"/login.php?action=create_account\",\"forgot_password\":\"/login.php?action=reset_password\",\"login\":\"/login.php\",\"logout\":\"/login.php?action=logout\",\"save_new_account\":\"/login.php?action=save_new_account\",\"save_new_password\":\"/login.php?action=save_new_password\",\"send_password_email\":\"/login.php?action=send_password_email\"},\"brands\":\"https://www.facetofacegames.com/brands/\",\"cart\":\"/cart.php\",\"checkout\":{\"multiple_address\":\"/checkout.php?action=multiple\",\"single_address\":\"/checkout\"},\"compare\":\"/compare\",\"contact_us_submit\":\"/pages.php?action=sendContactForm\",\"gift_certificate\":{\"balance\":\"/giftcertificates.php?action=balance\",\"purchase\":\"/giftcertificates.php\",\"redeem\":\"/giftcertificates.php?action=redeem\"},\"home\":\"https://www.facetofacegames.com/\",\"product\":{\"post_review\":\"/postreview.php\"},\"rss\":{\"products\":[]},\"search\":\"/search.php\",\"sitemap\":\"/sitemap.php\",\"subscribe\":{\"action\":\"/subscribe.php\"}},\"secureBaseUrl\":\"https://www.facetofacegames.com\",\"cartId\":null,\"template\":\"pages/custom/page/hawk-search\"}").load();
+        </script>
+
+        <script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/datatags-a6c27a4dafebddd5845000c8abc99b2096434171.js" defer=""></script>
+<script type="text/javascript">
+window.addEventListener('DOMContentLoaded', function () { window.initDataTags([], [], window.analytics, {"channel":{"id":1,"name":"default","type":"default"}}); })
+</script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/csrf-protection-header-b572e5526f6854c73a5e080ef15a771f963740ae.js"></script>
+<script src="https://static.affiliatly.com/bigcommerce/v3/bigcommerce.js?affiliatly_code=AF-1053646"></script>
+    
+
+</body></html>
