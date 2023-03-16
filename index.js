@@ -19,7 +19,8 @@ const shops = {
             'Chez Geeks':'https://www.chezgeeks.com',
             'Alt F4' : 'https://altf4online.crystalcommerce.com',
             'L\'Expédition' : 'https://www.expeditionjeux.com',
-            // 'TopDeckHero' : 'https://www.topdeckhero.com',
+            'TopDeckHero' : 'https://www.topdeckhero.com',
+            'Secret des Korrigans' : 'https://lesecretdeskorrigans.crystalcommerce.com',
             // 'FacetoFace' : 'https://www.facetofacegames.com'
             };
 
