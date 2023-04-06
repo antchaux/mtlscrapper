@@ -6,9 +6,9 @@ const shopsID = {'valet':'Le Valet d\'Coeur',
                 'geeks':'Chez Geeks',
                 'altf4':'Alt F4',
                 'expedition':'L\'Expédition',
+                'facetoface':'Face to Face',
                 'topdeck' : 'Topdeck Hero',
                 'secret' : 'Le Secret des Korrigans',
-                // 'facetoface':'FacetoFace'
             };
 
 // var baseUrl = 'http://localhost:80/'
