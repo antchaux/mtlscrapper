@@ -4,6 +4,7 @@ const express = require('express')
 const cors = require('cors')
 const uuidv4 = require("uuid/v4")
 const fs = require('fs')
+const { match } = require('assert')
 
 const PORT = process.env.PORT || 80
 
@@ -132,13 +133,22 @@ function extractF2FData(response, card){
             cardname = element.Document['card name'][0];
             if(cardname.toLowerCase() === response.data.Keyword.toLowerCase()){
                 set = element.Document["true set"][0]
-                if(element.Document.search_keyword){
-                    finish = element.Document.search_keyword[0]
-                }
-                else {
+                cardUrl = element.Document["url_detail"][0]
+                var matches = element.Document["title"][0].match(/\[(.*?)\]/g);
+                matches.shift()
+                matches.pop()
+                if(matches.length === 0){
                     finish = undefined
                 }
-                cardUrl = element.Document["url_detail"][0]
+                else {
+                    finish = ""
+                    for (f in matches){
+                        if(finish !== ""){
+                            finish += ' - '
+                        }
+                        finish += matches[f].replace("[", "").replace("]", "")
+                    }
+                }
 
                 element.Document["hawk_child_attributes"].forEach(e => {
                     foil = !(e.option_finish[0] === "Non-Foil")
