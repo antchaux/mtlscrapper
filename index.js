@@ -132,6 +132,7 @@ function extractF2FData(response, card){
         if (element.Document['product type'][0] === 'Singles') {
             cardname = element.Document['card name'][0];
             if(cardname.toLowerCase() === response.data.Keyword.toLowerCase()){
+                output[card].exists = true
                 set = element.Document["true set"][0]
                 cardUrl = element.Document["url_detail"][0]
                 var matches = element.Document["title"][0].match(/\[(.*?)\]/g);
@@ -153,6 +154,11 @@ function extractF2FData(response, card){
                 element.Document["hawk_child_attributes"].forEach(e => {
                     foil = !(e.option_finish[0] === "Non-Foil")
                     qty = parseInt(e.child_inventory_level[0])
+
+                    if (qty > 0) {
+                        output[card].oos = false
+                    }
+
                     price = parseFloat(e.child_price_retail[0])
                     if(e.option_condition[0] === 'NM'){
                         output[card]['Face to Face'].push({
