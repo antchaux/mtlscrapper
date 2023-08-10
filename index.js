@@ -21,6 +21,9 @@ const shops = {
         'Face to Face' : 'https://www.facetofacegames.com',
         'Topdeck Hero' : 'https://www.topdeckhero.com',
         'Le Secret des Korrigans' : 'https://lesecretdeskorrigans.crystalcommerce.com',
+        'Game Keeper Verdun' : 'https://www.gamekeeperverdun.com',
+        'Game Keeper Online' : 'https://www.gamekeeperonline.com',
+        'Carta Magica Montreal' : 'https://www.cartamagica.com',
     };
 
 var cards = [];

@@ -9,6 +9,9 @@ const shopsID = {'valet':'Le Valet d\'Coeur',
                 'facetoface':'Face to Face',
                 'topdeck' : 'Topdeck Hero',
                 'secret' : 'Le Secret des Korrigans',
+                'GKVerdun' : 'Game Keeper Verdun',
+                'GKOnline' : 'Game Keeper Online',
+                'cartaMagica' : 'Carta Magica Montreal',
             };
 
 // var baseUrl = 'http://localhost:80/'
