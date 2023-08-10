@@ -15,7 +15,7 @@ app.use(express.static('client'))
 const searchUrl = '/products/search?q='
 const shops = {
         'Le Valet d\'Coeur':'https://www.carte.levalet.com', 
-        //'Chez Geeks':'https://www.chezgeeks.com',
+        'Chez Geeks':'https://www.chezgeeks.com',
         'Alt F4' : 'https://altf4online.crystalcommerce.com',
         'L\'Expédition' : 'https://www.expeditionjeux.com',
         'Face to Face' : 'https://www.facetofacegames.com',

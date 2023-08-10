@@ -3,7 +3,7 @@ const oosCheckbox = document.querySelector('#oos')
 const foilCheckbox = document.querySelector('#foil')
 
 const shopsID = {'valet':'Le Valet d\'Coeur', 
-                //'geeks':'Chez Geeks',
+                'geeks':'Chez Geeks',
                 'altf4':'Alt F4',
                 'expedition':'L\'Expédition',
                 'facetoface':'Face to Face',
